@@ -42,7 +42,7 @@ Este projeto é uma aplicação de **Biblioteca Virtual** desenvolvida em **C#**
 
 2. **Navegue até a pasta do projeto**
 ```sh
- cd BibliotecaVirtual
+ cd Biblioteca-Virtual
 ```
 
 3. **Configure a conexão com o banco de dados** no `appsettings.json`, ou no Program/ContextoData
