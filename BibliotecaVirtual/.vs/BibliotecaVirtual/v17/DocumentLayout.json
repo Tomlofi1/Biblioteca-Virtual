@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\models\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\models\\livros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\data\\contextodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\data\\contextodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\models\\clientelivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\models\\clientelivro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\repository\\autorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\repository\\autorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\interface\\iautorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\interface\\iautorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\interface\\ilivrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\interface\\ilivrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\models\\funcionarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|c:\\users\\adm\\source\\repos\\bibliotecavirtual\\bibliotecavirtual\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2B566C1-4A18-4FA3-9774-25C60F0BF493}|BibliotecaVirtual\\BibliotecaVirtual.csproj|solutionrelative:bibliotecavirtual\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Livros.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Livros.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Models\\Livros.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Livros.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Models\\Livros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T19:17:09.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Models\\Autor.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Autor.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Models\\Autor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T18:58:41.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Repository\\AutorRepository.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Repository\\AutorRepository.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Repository\\AutorRepository.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Repository\\AutorRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T18:22:52.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAutorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Interface\\IAutorRepository.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Interface\\IAutorRepository.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Interface\\IAutorRepository.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Interface\\IAutorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T18:19:26.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteLivro.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\ClienteLivro.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Models\\ClienteLivro.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\ClienteLivro.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Models\\ClienteLivro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T22:44:34.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContextoData.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Data\\ContextoData.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Data\\ContextoData.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Data\\ContextoData.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Data\\ContextoData.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwCMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T22:07:53.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILivrosRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Interface\\ILivrosRepository.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Interface\\ILivrosRepository.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Interface\\ILivrosRepository.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Interface\\ILivrosRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:13:35.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Seed.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Seed.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Seed.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Seed.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwC0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T23:15:58.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Program.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Program.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Program.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:37:29.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\DTO\\ClienteDTO.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\DTO\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\DTO\\ClienteDTO.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\DTO\\ClienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T22:12:58.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Cliente.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T21:44:37.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Funcionarios.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Funcionarios.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Models\\Funcionarios.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Models\\Funcionarios.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Models\\Funcionarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T21:44:16.602Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "BibliotecaVirtual\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Users\\Adm\\source\\repos\\BibliotecaVirtual\\BibliotecaVirtual\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "BibliotecaVirtual\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T20:00:29.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
