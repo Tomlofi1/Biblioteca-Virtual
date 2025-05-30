@@ -54,7 +54,7 @@ namespace BibliotecaVirtual.Controllers
                 return NotFound("Nao tem nenhum cliente com essa data de nascimento");
 
             var clienteNascimentodto = _mapper.Map<IEnumerable<ClienteDTO>>(clienteDatadeNascimento);
-            
+
             return Ok(clienteNascimentodto);
         }
 
@@ -157,4 +157,5 @@ namespace BibliotecaVirtual.Controllers
             return Ok(new { Message = "Cliente Apagado com sucesso", Cliente = removerCliente });
         }
     } // TESTE APENAS TESTE
+    //APENAS TESTE
 }
