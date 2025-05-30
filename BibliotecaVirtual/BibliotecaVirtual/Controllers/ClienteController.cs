@@ -83,7 +83,7 @@ namespace BibliotecaVirtual.Controllers
             if (clienteCriar == null)
                 return BadRequest(ModelState);
 
-            var cliente = _clienteRepository.GetClientes().Where(p => p.PrimeiroNome.Trim().ToUpper() == clienteCriar.PrimeiroNome.Trim().ToUpper()).FirstOrDefault();
+            var cliente = _clienteRepository.GetClientes().Where(p => p.PrimeiroNome.Trim().ToUpper() == clienteCriar.PrimeiroNome!.Trim().ToUpper()).FirstOrDefault();
 
             if (cliente != null)
             {
@@ -96,8 +96,8 @@ namespace BibliotecaVirtual.Controllers
 
             var criarCliente = new Cliente
             {
-                PrimeiroNome = clienteCriar.PrimeiroNome,
-                SegundoNome = clienteCriar.SegundoNome,
+                PrimeiroNome = clienteCriar.PrimeiroNome!,
+                SegundoNome = clienteCriar.SegundoNome!,
                 DataDeNascimento = DateTime.SpecifyKind(clienteCriar.DataDeNascimento, DateTimeKind.Utc)
             };
 
