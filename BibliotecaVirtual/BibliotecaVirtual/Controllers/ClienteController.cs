@@ -157,5 +157,7 @@ namespace BibliotecaVirtual.Controllers
             return Ok(new { Message = "Cliente Apagado com sucesso", Cliente = removerCliente });
         }
     } // TESTE APENAS TESTE
-    //APENAS TESTE
+      //APENAS TESTE
+    
+    //COMITANDO
 }
