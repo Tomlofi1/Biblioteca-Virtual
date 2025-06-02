@@ -73,11 +73,7 @@ Este projeto é uma aplicação de **Biblioteca Virtual** desenvolvida em **C#**
 - 📌 Melhorar interface gráfica (se aplicável)
 - 📌 Criar testes automatizados
 - 📌 Implementar notificações para devoluções pendentes
-
-## 📜 Licença
-
-Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
+- 
 ---
 💡 *Sinta-se à vontade para contribuir com melhorias!* 😊
 
