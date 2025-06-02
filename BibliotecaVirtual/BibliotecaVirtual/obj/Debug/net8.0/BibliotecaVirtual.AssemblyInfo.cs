@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaVirtual")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6adf4753bc66a0551b3b366fff3a32b007b7a69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94073c8e71889f6aa4f7ff653bc8aab0bac37f6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaVirtual")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaVirtual")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
