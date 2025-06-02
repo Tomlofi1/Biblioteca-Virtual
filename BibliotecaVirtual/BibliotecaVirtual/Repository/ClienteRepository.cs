@@ -46,7 +46,7 @@ namespace BibliotecaVirtual.Repository
 
         public Cliente GetClientesPeloId(int id)
         {
-            return _contexto.Clientes.FirstOrDefault(p => p.Id == id);
+            return _contexto.Clientes.FirstOrDefault(p => p.Id == id) ?? new Cliente();
         }
 
         public bool Save()
@@ -71,8 +71,8 @@ namespace BibliotecaVirtual.Repository
                 return false;
             }
 
-            clienteExistente.PrimeiroNome = cliente.PrimeiroNome.Trim();
-            clienteExistente.SegundoNome = cliente.SegundoNome.Trim();
+            clienteExistente.PrimeiroNome = cliente.PrimeiroNome!.Trim();
+            clienteExistente.SegundoNome = cliente.SegundoNome!.Trim();
             clienteExistente.DataDeNascimento = cliente.DataDeNascimento;
 
             return Save();

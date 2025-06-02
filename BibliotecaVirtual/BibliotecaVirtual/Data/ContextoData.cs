@@ -17,7 +17,7 @@ namespace BibliotecaVirtual.Data
                 "Server=localhost;" +
                 "Port=5432;" +
                 "User Id=postgres;" +
-                "Password=123"));
+                "Password=1234"));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

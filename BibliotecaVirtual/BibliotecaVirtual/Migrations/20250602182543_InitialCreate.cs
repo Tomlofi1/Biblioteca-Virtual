@@ -18,8 +18,8 @@ namespace BibliotecaVirtual.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    PrimeiroNome = table.Column<string>(type: "text", nullable: false),
-                    SegundoNome = table.Column<string>(type: "text", nullable: false)
+                    PrimeiroNome = table.Column<string>(type: "text", nullable: true),
+                    SegundoNome = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -61,10 +61,10 @@ namespace BibliotecaVirtual.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Titulo = table.Column<string>(type: "text", nullable: false),
-                    Genero = table.Column<string>(type: "text", nullable: false),
+                    Titulo = table.Column<string>(type: "text", nullable: true),
+                    Genero = table.Column<string>(type: "text", nullable: true),
                     LancamentoDoLivro = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    AutorId = table.Column<int>(type: "integer", nullable: true)
+                    AutorId = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -73,7 +73,8 @@ namespace BibliotecaVirtual.Migrations
                         name: "FK_Livros_Autores_AutorId",
                         column: x => x.AutorId,
                         principalTable: "Autores",
-                        principalColumn: "Id");
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(

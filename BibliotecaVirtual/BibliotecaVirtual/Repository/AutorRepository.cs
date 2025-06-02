@@ -20,12 +20,14 @@ namespace BibliotecaVirtual.Repository
 
         public bool CreateAutor(Autor autor)
         {
-            throw new NotImplementedException();
+            _contexto.Autores.Add(autor);
+            return Save();
         }
 
         public bool DeleteAutor(int id, Autor autor)
         {
-            throw new NotImplementedException();
+            _contexto.Autores.Remove(autor);
+            return Save();
         }
 
         public ICollection<Autor> GetAutors()
@@ -33,14 +35,23 @@ namespace BibliotecaVirtual.Repository
             return _contexto.Autores.OrderBy(p => p.Id).ToList();
         }
 
+        public ICollection<Autor> GetAutorsPorGenero(string genero)
+        {
+            return _contexto.Livros.Where(x => x.Genero == genero)
+                                   .Select(x => x.Autor)
+                                   .Distinct()
+                                   .OrderBy(a => a.PrimeiroNome)
+                                   .ToList();
+        }
+
         public ICollection<Autor> GetAutorsPorLivro(Livros livros)
         {
-           
+            return _contexto.Autores.Where(a => a.Id == livros.AutorId).ToList();
         }
 
         public ICollection<Autor> GetAutorsPorNome(string PrimeiroNome)
         {
-            throw new NotImplementedException();
+            return _contexto.Autores.Where(a => a.PrimeiroNome == PrimeiroNome).OrderBy(a => a.PrimeiroNome).ToList();
         }
 
         public bool Save()
@@ -58,7 +69,8 @@ namespace BibliotecaVirtual.Repository
 
         public bool UpdateAutor(int id, Autor autor)
         {
-            throw new NotImplementedException();
+            _contexto.Autores.Update(autor);
+            return Save();
         }
     }
 }

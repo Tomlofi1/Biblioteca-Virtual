@@ -51,8 +51,8 @@ namespace BibliotecaVirtual.Repository
                 
                 return false;
             }
-            livroExistente.Titulo = livros.Titulo.Trim();
-            livroExistente.Genero = livros.Genero.Trim();
+            livroExistente.Titulo = livros.Titulo?.Trim();
+            livroExistente.Genero = livros.Genero?.Trim();
             livroExistente.LancamentoDoLivro = livros.LancamentoDoLivro;
             
             return Save();
@@ -64,8 +64,8 @@ namespace BibliotecaVirtual.Repository
                 .Select(livros => new LivrosDTO
                 {
                     Id = livros.Id,
-                    Titulo = livros.Titulo,
-                    Genero = livros.Genero,
+                    Titulo = livros.Titulo!,
+                    Genero = livros.Genero!,
                     LancamentoDoLivro = livros.LancamentoDoLivro,
                 })
                 .OrderBy(l => l.Id)
@@ -77,8 +77,8 @@ namespace BibliotecaVirtual.Repository
             return _contexto.Livros
                 .Select(livros => new LivrosDTO
                 {
-                    Titulo = livros.Titulo,
-                    Genero = livros.Genero,
+                    Titulo = livros.Titulo!,
+                    Genero = livros.Genero!,
                 })
                 .Where(p => p.Genero.ToLower() == genero.ToLower()).ToList();
         }
@@ -89,8 +89,8 @@ namespace BibliotecaVirtual.Repository
                 .Select(livros => new LivrosDTO
                 {
                     Id = livros.Id,
-                    Titulo = livros.Titulo,
-                    Genero = livros.Genero,
+                    Titulo = livros.Titulo!,
+                    Genero = livros.Genero!,
                     LancamentoDoLivro = livros.LancamentoDoLivro,
                 })
                 .Where(p => p.LancamentoDoLivro >= dataInicial && p.LancamentoDoLivro <= dataFinal).ToList();
@@ -101,8 +101,8 @@ namespace BibliotecaVirtual.Repository
             return _contexto.Livros
                 .Select(livros => new LivrosDTO
                 {
-                    Titulo=livros.Titulo,
-                    Genero =livros.Genero,
+                    Titulo=livros.Titulo!,
+                    Genero =livros.Genero!,
                 })
                 .Where(o => o.Titulo.ToLower() == nome.ToLower()).ToList();
         }

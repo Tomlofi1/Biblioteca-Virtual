@@ -8,6 +8,7 @@ namespace BibliotecaVirtual.Interface
         ICollection<Autor> GetAutors();
         ICollection<Autor> GetAutorsPorLivro(Livros livros);
         ICollection<Autor> GetAutorsPorNome(string PrimeiroNome);
+        ICollection<Autor> GetAutorsPorGenero(string genero);
         bool AutorExiste(int id);
         bool CreateAutor(Autor autor);
         bool DeleteAutor(int id, Autor autor);

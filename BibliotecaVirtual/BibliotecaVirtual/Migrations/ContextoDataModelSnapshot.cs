@@ -31,11 +31,9 @@ namespace BibliotecaVirtual.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("PrimeiroNome")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("SegundoNome")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -111,18 +109,16 @@ namespace BibliotecaVirtual.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("AutorId")
+                    b.Property<int>("AutorId")
                         .HasColumnType("integer");
 
                     b.Property<string>("Genero")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("LancamentoDoLivro")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Titulo")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
@@ -153,9 +149,13 @@ namespace BibliotecaVirtual.Migrations
 
             modelBuilder.Entity("BibliotecaVirtual.Models.Livros", b =>
                 {
-                    b.HasOne("BibliotecaVirtual.Models.Autor", null)
+                    b.HasOne("BibliotecaVirtual.Models.Autor", "Autor")
                         .WithMany("Livros")
-                        .HasForeignKey("AutorId");
+                        .HasForeignKey("AutorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Autor");
                 });
 
             modelBuilder.Entity("BibliotecaVirtual.Models.Autor", b =>

@@ -14,9 +14,5 @@ namespace BibliotecaVirtual.Interface
         bool UpdateLivro(int id, Livros livros);
         bool DeleteLivro(int id, Livros livros);
         bool Save();
-        // Aqui e o Bool Createlivro(Livro livro)
-        // Bool UpdateLivro
-        // Bool DeleteLivro
-
     }
 }

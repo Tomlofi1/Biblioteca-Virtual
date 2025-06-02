@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "U+cyGVYEVf99+JvQvfgGiYTB3jW+oqzCOgr1jigAtPk=",
+  "Hash": "kdGPAzTOSOS7kZ45hjvHZyVhYwEdb88CLA2/491Z2sw=",
   "Source": "BibliotecaVirtual",
   "BasePath": "_content/BibliotecaVirtual",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

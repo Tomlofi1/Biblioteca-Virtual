@@ -16,6 +16,26 @@ namespace BibliotecaVirtual
         {
             if (!contextoData.ClienteLivros.Any())
             {
+                var autores = new List<Autor>
+                {
+                    new Autor
+                    {
+                        PrimeiroNome = "William",
+                        SegundoNome = "Gibson"
+                    },
+                    new Autor
+                    {
+                        PrimeiroNome = "Sun",
+                        SegundoNome = "Tzu"
+                    },
+                    new Autor
+                    {
+                        PrimeiroNome = "Thomas",
+                        SegundoNome = "Edison"
+                    },
+                };
+                contextoData.Autores.AddRange(autores);
+                contextoData.SaveChanges();
                 
                 var livros = new List<Livros>
                 {
@@ -23,23 +43,26 @@ namespace BibliotecaVirtual
                     {
                         Titulo = "Neuromancer",
                         LancamentoDoLivro = DateTime.SpecifyKind(new DateTime(1984, 1, 7), DateTimeKind.Utc),
-                        Genero = "Cyberpunk"
+                        Genero = "Cyberpunk",
+                        AutorId = autores[0].Id
                     },
                     new Livros
                     {
                         Titulo = "A arte da guerra",
                         LancamentoDoLivro = DateTime.SpecifyKind(new DateTime(500, 1, 1), DateTimeKind.Utc),
-                        Genero = "Tratado"
+                        Genero = "Tratado",
+                        AutorId = autores[1].Id
                     },
                     new Livros
                     {
                         Titulo = "Algoritmos",
                         LancamentoDoLivro = DateTime.SpecifyKind(new DateTime(1990, 2, 1), DateTimeKind.Utc),
-                        Genero = "Matematica"
+                        Genero = "Matematica",
+                        AutorId = autores[2].Id
                     }
                 };
-
                 contextoData.Livros.AddRange(livros);
+                contextoData.SaveChanges();
 
                 
                 var clientes = new List<Cliente>
