@@ -8,7 +8,6 @@ Este projeto é uma aplicação de **Biblioteca Virtual** desenvolvida em **C#**
 - **.NET**
 - **Entity Framework Core**
 - **PostgreSQL** 
-- **ASP.NET Core MVC** 
 - **Swagger** 
 
 ## 🚀 Funcionalidades
